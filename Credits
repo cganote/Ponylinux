@@ -1,0 +1,83 @@
+I'd like to thank the following Q&A pages for helping me hone my bash-fu:
+
+Bash basics:
+https://stackoverflow.com/questions/1250079/how-to-escape-single-quotes-within-single-quoted-strings
+https://unix.stackexchange.com/questions/505828/how-to-pass-a-string-to-a-command-that-expects-a-file
+https://www.cyberciti.biz/faq/bash-for-loop/
+https://stackoverflow.com/questions/59838/check-if-a-directory-exists-in-a-shell-script
+https://unix.stackexchange.com/questions/293940/bash-how-can-i-make-press-any-key-to-continue
+http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_03.html
+https://stackoverflow.com/questions/229551/how-to-check-if-a-string-contains-a-substring-in-bash
+https://unix.stackexchange.com/questions/39291/run-a-command-that-is-shadowed-by-an-alias
+https://askubuntu.com/questions/385528/how-to-increment-a-variable-in-bash
+https://unix.stackexchange.com/questions/191694/how-to-put-a-newline-special-character-into-a-file-using-the-echo-command-and-re
+https://stackoverflow.com/questions/5014632/how-can-i-parse-a-yaml-file-from-a-linux-shell-script
+https://stackoverflow.com/questions/11087499/bash-how-do-you-capture-stderr-to-a-variable/11087523
+https://serverfault.com/questions/146745/how-can-i-check-in-bash-if-a-shell-is-running-in-interactive-mode
+https://www.cyberciti.biz/faq/finding-bash-shell-array-length-elements/
+https://stackoverflow.com/questions/4774054/reliable-way-for-a-bash-script-to-get-the-full-path-to-itself
+https://unix.stackexchange.com/questions/122845/using-a-b-for-variable-assignment-in-scripts
+https://stackoverflow.com/questions/20871534/concatenate-in-bash-the-output-of-two-commands-without-newline-character
+https://unix.stackexchange.com/questions/225943/except-the-1st-argument
+
+This is for the issue when I split out the individual pages, ctrl+c would kill the whole thing, when I wanted it to return to menu:
+https://unix.stackexchange.com/questions/80975/preventing-propagation-of-sigint-to-parent-process
+
+I didn't use the select functionality, but it seems cool:
+https://askubuntu.com/questions/1705/how-can-i-create-a-select-menu-in-a-shell-script
+
+This stuff was straight up crazy, and I didn't get it working:
+https://superuser.com/questions/184307/bash-create-anonymous-fifo
+https://unix.stackexchange.com/questions/334543/capture-the-output-of-a-shell-function-without-a-subshell
+
+This helped me with getting the ponylist together:
+https://superuser.com/questions/380772/removing-ansi-color-codes-from-text-stream
+
+Making sure ls works with color:
+https://www.cyberciti.biz/faq/how-to-turn-on-or-off-colors-in-bash/
+
+tput
+https://stackoverflow.com/questions/2924697/how-does-one-output-bold-text-in-bash
+https://stackoverflow.com/questions/1780483/lines-and-columns-environmental-variables-lost-in-a-script
+
+The beauty of fold (cat with text wrap):
+https://unix.stackexchange.com/questions/25173/how-can-i-wrap-text-at-a-certain-column-size
+
+Multiple commands using args from a file:
+https://stackoverflow.com/questions/13939038/how-do-you-run-a-command-for-each-line-of-a-file
+
+Converting images to Unix-ready:
+https://github.com/stefanhaustein/TerminalImageViewer
+
+A neat overview of how to tweak the interactive shell:
+http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html
+
+Bash colors:
+https://misc.flogisoft.com/bash/tip_colors_and_formatting
+
+Perl one-liner for grabbing whole files:
+https://riptutorial.com/perl/example/16725/slurp-file-in-one-liner
+Perl ternary operator:
+https://stackoverflow.com/questions/10503643/perl-one-liner-if-else-logic
+
+Random number generator
+http://tldp.org/LDP/abs/html/randomvar.html
+
+Less/nano/vim stuff:
+https://en.wikipedia.org/wiki/GNU_nano
+https://askubuntu.com/questions/418396/what-is-the-difference-between-vi-and-vim
+https://unix.stackexchange.com/questions/31/list-of-useful-less-functions
+https://stackoverflow.com/questions/8586648/going-to-a-specific-line-number-using-less-in-unix
+https://unix.stackexchange.com/questions/7186/can-less-invoke-vim-instead-of-the-default-vi-when-i-hit-the-v-key
+Got pointers for less -S from https://astrobiomike.github.io/bash/six_commands
+
+
+Other notes.
+I think it will be hard to orchestrate the proper sourcing/unsourcing of the files needed after the tutorial is run. Getting it to start automatically will be tricky. Update: It wasn't.
+
+Big thanks to the Ponysay team for making this so much more fun!
+
+Thanks to Sheri A. Sanders for working up the permissions tutorial.
+
+Thanks to my dear hubby for being a patient beta-tester and not at all a computer person.
+Thanks to my other testers! Bhavya NP! Natisha LD! Dan P!
