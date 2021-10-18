@@ -32,7 +32,7 @@ function bigmenu(){
     checkProgress
     string="Welcome back, $name! Ready to do some more training?"
     if [[ $1 = 1 ]]; then
-	string="It's nice to meet you, $name. I currently have two sections worth of material for you to go through. Section three will be out in early 2021. Start with section one, then move on to section two."
+	string="It's nice to meet you, $name. I currently have two sections worth of material for you to go through. Section three will be out in late 2021. Start with section one, then move on to section two."
     fi 
     string=${string}${big}
     ponysay -b round -F royalnightguard ${string}$'\n\t1.) Section One - the very basics '${sectiononedone}$'\n\t2.) Section Two - Lord of the Files '${sectiontwodone}$'\n\tPress any other key to Quit.'
